@@ -1,0 +1,23 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+      {
+          "type": "TextBlock",
+          "height": "stretch",
+          "size": "ExtraLarge",
+          "color": "Accent",
+          "text": "Que onda",
+          "fontType": "Monospace"
+      },
+      {
+          "type": "TextBlock",
+          "size": "Large",
+          "weight": "Bolder",
+          "color": "Warning",
+          "text": "Este es un bloque de texto bien chidori ALV estoy mamadisimo.!",
+          "isSubtle": true
+      }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.0"
+}
