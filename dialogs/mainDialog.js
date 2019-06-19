@@ -63,8 +63,8 @@ class MainDialog extends ComponentDialog {
             return await stepContext.next();
         }
         const welcomeCard = CardFactory.adaptiveCard(WelcomeCard);
-        await stepContext.context.sendActivity({ attachments: [welcomeCard] });
-        //await stepContext.context.sendActivity('Aqui deberia ir la card');
+        //await stepContext.context.sendActivity({ attachments: [welcomeCard] });
+        await stepContext.context.sendActivity('Aqui deberia ir la card de forma local');
         return await stepContext.prompt('TextPrompt', { prompt: 'What can I help you with today?\nSay something like "Book a flight from Paris to Berlin on March 22, 2020"' });
     }
 
